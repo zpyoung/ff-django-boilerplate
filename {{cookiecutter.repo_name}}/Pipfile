@@ -1,0 +1,46 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+django-debug-toolbar = "*"
+django-debug-toolbar-request-history = "*"
+bandit = "*"
+django-naomi = "*"
+model-mommy = "*"
+pre-commit = "*"
+prospector = {extras = ["with-vulture"]}
+pylint = "*"
+pylint-django = "*"
+pylint-celery = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+coverage = "*"
+safety = "*"
+
+[packages]
+celery = {extras = ["redis"]}
+tg-utils = "*"
+tg-react = "*"
+psycopg2-binary = "*"
+django-redis = "*"
+django-crispy-forms = "*"
+django-cors-headers = "*"
+django-log-request-id = "*"
+dj-database-url = "*"
+gunicorn = "*"
+whitenoise = "*"
+djangorestframework = "*"
+django-filter = "*"
+brotlipy = "*"
+hashids = "*"
+Django = "*"
+django-elasticsearch-dsl = "*"
+elasticsearch-dsl = "6.2"
+django-environ = "*"
+PyYAML = "*"
+
+[requires]
+python_version = "3.6"

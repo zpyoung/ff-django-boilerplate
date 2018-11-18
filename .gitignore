@@ -1,0 +1,9 @@
+.idea/
+npm-debug.log
+.tox
+*.mo
+*.pyo
+*.pyc
+.cache
+.pytest_cache
+venv/

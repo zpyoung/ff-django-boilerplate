@@ -1,0 +1,32 @@
+# Ignore everything in .idea
+.idea
+
+*.mo
+*.pyo
+*.pyc
+.sass-cache/
+npm-debug.log
+yarn-error.log
+node_modules/
+venv/
+.cache/
+
+.data/
+
+{{cookiecutter.repo_name}}/settings/local.py
+{{cookiecutter.repo_name}}/settings/local_test.py
+{{cookiecutter.repo_name}}/db.sqlite3
+{{cookiecutter.repo_name}}/assets/
+
+{{cookiecutter.repo_name}}/.cache
+{{cookiecutter.repo_name}}/.coverage
+{{cookiecutter.repo_name}}/cover/
+
+# Node Project files
+app/build/
+app/coverage/
+app/lib/
+app/env/node.env
+
+# Django env
+{{cookiecutter.repo_name}}/django.env
